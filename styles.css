@@ -1,0 +1,6 @@
+/* Remove unnecessary highlights for active tab's favicon
+* https://www.reddit.com/r/vivaldibrowser/comments/qvhya8/comment/hkyylwg/?utm_source=reddit&utm_medium=web2x&context=3
+* */
+.tab.active .favicon {
+    filter: none !important;
+}
